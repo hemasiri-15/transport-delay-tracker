@@ -351,7 +351,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Email: hemasiriguduru@gmail.com
 - GitHub: [hemasiri-15](https://github.com/hemasiri-15)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Hema Siri Guduru](https://linkedin.com/in/hema-siri-guduru-15sh)
 
 **Project Link:** [https://github.com/yourusername/transport-delay-tracker](https://github.com/yourusername/transport-delay-tracker)
 
