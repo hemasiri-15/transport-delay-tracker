@@ -1,0 +1,4 @@
+Route,Total_Trips,On_Time_Count,On_Time_%,Avg_Delay_Min,Max_Delay_Min
+Route_303,3,3,100.00,1.00,2
+Route_101,6,4,66.67,7.17,19
+Route_202,6,6,100.00,0.83,5

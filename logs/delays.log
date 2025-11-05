@@ -1,0 +1,757 @@
+[2025-11-01 11:59:29] [INFO] Helpers file working correctly!
+[2025-11-01 12:09:29] [INFO] Starting data ingestion
+[2025-11-01 12:09:29] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:09:29] [INFO] Timetable processing complete
+[2025-11-01 12:09:29] [INFO] Fetching live delay data
+[2025-11-01 12:09:29] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_120929.json
+[2025-11-01 12:09:29] [INFO] Parsing live data from [2025-11-01 12:09:29] [INFO] Fetching live delay data
+[2025-11-01 12:09:29] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_120929.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_120929.json
+[2025-11-01 12:09:29] [INFO] Live data parsing complete
+[2025-11-01 12:09:29] [INFO] Data ingestion complete
+[2025-11-01 12:10:31] [INFO] Starting data ingestion
+[2025-11-01 12:10:31] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:10:31] [INFO] Timetable processing complete
+[2025-11-01 12:10:31] [INFO] Fetching live delay data
+[2025-11-01 12:10:31] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121031.json
+[2025-11-01 12:10:31] [INFO] Parsing live data from [2025-11-01 12:10:31] [INFO] Fetching live delay data
+[2025-11-01 12:10:31] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121031.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121031.json
+[2025-11-01 12:10:31] [INFO] Live data parsing complete
+[2025-11-01 12:10:31] [INFO] Data ingestion complete
+[2025-11-01 12:15:24] [INFO] Starting data ingestion
+[2025-11-01 12:15:24] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:15:24] [INFO] Timetable processing complete
+[2025-11-01 12:15:24] [INFO] Fetching live delay data
+[2025-11-01 12:15:24] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121524.json
+[2025-11-01 12:15:24] [INFO] Parsing live data from [2025-11-01 12:15:24] [INFO] Fetching live delay data
+[2025-11-01 12:15:24] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121524.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_121524.json
+[2025-11-01 12:15:24] [INFO] Live data parsing complete
+[2025-11-01 12:15:24] [INFO] Data ingestion complete
+[2025-11-01 12:20:42] [INFO] Starting data ingestion
+[2025-11-01 12:20:42] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:20:42] [INFO] Timetable processing complete
+[2025-11-01 12:20:42] [INFO] Fetching live delay data
+[2025-11-01 12:20:42] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122042.json
+[2025-11-01 12:20:42] [INFO] Parsing live data from [2025-11-01 12:20:42] [INFO] Fetching live delay data
+[2025-11-01 12:20:42] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122042.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122042.json
+[2025-11-01 12:20:42] [ERROR] Live data file not found: [2025-11-01 12:20:42] [INFO] Fetching live delay data
+[2025-11-01 12:20:42] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122042.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122042.json
+[2025-11-01 12:20:42] [INFO] Data ingestion complete
+[2025-11-01 12:24:09] [INFO] Starting data ingestion
+[2025-11-01 12:24:09] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:24:09] [INFO] Timetable processing complete
+[2025-11-01 12:24:09] [INFO] Fetching live delay data
+[2025-11-01 12:24:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122409.json
+[2025-11-01 12:24:09] [INFO] Parsing live data from [2025-11-01 12:24:09] [INFO] Fetching live delay data
+[2025-11-01 12:24:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122409.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122409.json
+[2025-11-01 12:24:09] [ERROR] Live data file not found: [2025-11-01 12:24:09] [INFO] Fetching live delay data
+[2025-11-01 12:24:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122409.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122409.json
+[2025-11-01 12:24:09] [INFO] Data ingestion complete
+[2025-11-01 12:25:09] [INFO] Starting data ingestion
+[2025-11-01 12:25:09] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:25:09] [INFO] Timetable processing complete
+[2025-11-01 12:25:09] [INFO] Fetching live delay data
+[2025-11-01 12:25:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122509.json
+[2025-11-01 12:25:09] [INFO] Parsing live data from [2025-11-01 12:25:09] [INFO] Fetching live delay data
+[2025-11-01 12:25:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122509.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122509.json
+[2025-11-01 12:25:09] [ERROR] Live data file not found: [2025-11-01 12:25:09] [INFO] Fetching live delay data
+[2025-11-01 12:25:09] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122509.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122509.json
+[2025-11-01 12:25:09] [INFO] Data ingestion complete
+[2025-11-01 12:25:50] [INFO] Starting data ingestion
+[2025-11-01 12:25:50] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:25:50] [INFO] Timetable processing complete
+[2025-11-01 12:25:50] [INFO] Fetching live delay data
+[2025-11-01 12:25:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122550.json
+[2025-11-01 12:25:51] [INFO] Parsing live data from [2025-11-01 12:25:50] [INFO] Fetching live delay data
+[2025-11-01 12:25:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122550.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122550.json
+[2025-11-01 12:25:51] [ERROR] Live data file not found: [2025-11-01 12:25:50] [INFO] Fetching live delay data
+[2025-11-01 12:25:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122550.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_122550.json
+[2025-11-01 12:25:51] [INFO] Data ingestion complete
+[2025-11-01 12:31:32] [INFO] Starting data ingestion
+[2025-11-01 12:31:32] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:31:32] [INFO] Timetable processing complete
+[2025-11-01 12:31:32] [INFO] Fetching live delay data
+[2025-11-01 12:31:32] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123132.json
+[2025-11-01 12:31:32] [INFO] Parsing live data from [2025-11-01 12:31:32] [INFO] Fetching live delay data
+[2025-11-01 12:31:32] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123132.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123132.json
+[2025-11-01 12:31:32] [ERROR] Live data file not found: [2025-11-01 12:31:32] [INFO] Fetching live delay data
+[2025-11-01 12:31:32] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123132.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123132.json
+[2025-11-01 12:31:32] [INFO] Data ingestion complete
+[2025-11-01 12:32:15] [INFO] Starting data ingestion
+[2025-11-01 12:32:15] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:32:15] [INFO] Timetable processing complete
+[2025-11-01 12:32:15] [INFO] Fetching live delay data
+[2025-11-01 12:32:15] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123215.json
+[2025-11-01 12:32:15] [INFO] Parsing live data from [2025-11-01 12:32:15] [INFO] Fetching live delay data
+[2025-11-01 12:32:15] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123215.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123215.json
+[2025-11-01 12:32:15] [ERROR] Live data file not found: [2025-11-01 12:32:15] [INFO] Fetching live delay data
+[2025-11-01 12:32:15] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123215.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123215.json
+[2025-11-01 12:32:15] [INFO] Data ingestion complete
+[2025-11-01 12:36:20] [INFO] Starting data ingestion
+[2025-11-01 12:36:20] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:36:20] [INFO] Timetable processing complete
+[2025-11-01 12:36:20] [INFO] Fetching live delay data
+[2025-11-01 12:36:20] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123620.json
+[2025-11-01 12:36:20] [INFO] Parsing live data from [2025-11-01 12:36:20] [INFO] Fetching live delay data
+[2025-11-01 12:36:20] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123620.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123620.json
+[2025-11-01 12:36:20] [ERROR] Live data file not found: [2025-11-01 12:36:20] [INFO] Fetching live delay data
+[2025-11-01 12:36:20] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123620.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123620.json
+[2025-11-01 12:36:20] [INFO] Data ingestion complete
+[2025-11-01 12:39:00] [INFO] Starting data ingestion
+[2025-11-01 12:39:00] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:39:00] [INFO] Timetable processing complete
+[2025-11-01 12:39:00] [INFO] Fetching live delay data
+[2025-11-01 12:39:00] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123900.json
+[2025-11-01 12:39:00] [INFO] Parsing live data from [2025-11-01 12:39:00] [INFO] Fetching live delay data
+[2025-11-01 12:39:00] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123900.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_123900.json
+[2025-11-01 12:39:00] [INFO] Live data parsing complete
+[2025-11-01 12:39:00] [INFO] Data ingestion complete
+[2025-11-01 12:41:44] [INFO] Starting data ingestion
+[2025-11-01 12:41:44] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:41:44] [INFO] Timetable processing complete
+[2025-11-01 12:41:45] [INFO] Fetching live delay data
+[2025-11-01 12:41:45] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124145.json
+[2025-11-01 12:41:45] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124145.json
+[2025-11-01 12:41:45] [INFO] Live data parsing complete
+[2025-11-01 12:41:45] [INFO] Data ingestion complete
+[2025-11-01 12:43:32] [INFO] Starting data ingestion
+[2025-11-01 12:43:32] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:43:32] [INFO] Timetable processing complete
+[2025-11-01 12:43:32] [INFO] Fetching live delay data
+[2025-11-01 12:43:32] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124332.json
+[2025-11-01 12:43:32] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124332.json
+[2025-11-01 12:43:32] [INFO] Live data parsing complete
+[2025-11-01 12:43:32] [INFO] Data ingestion complete —  delayed,  on-time
+[2025-11-01 12:45:20] [INFO] Starting data ingestion
+[2025-11-01 12:45:20] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:45:20] [INFO] Timetable processing complete
+[2025-11-01 12:45:21] [INFO] Fetching live delay data
+[2025-11-01 12:45:21] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124521.json
+[2025-11-01 12:45:21] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124521.json
+[2025-11-01 12:45:21] [INFO] Live data parsing complete
+[2025-11-01 12:45:21] [INFO] Data ingestion complete —  delayed,  on-time
+[2025-11-01 12:46:54] [INFO] Starting data ingestion
+[2025-11-01 12:46:54] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:46:54] [INFO] Timetable processing complete
+[2025-11-01 12:46:54] [INFO] Fetching live delay data
+[2025-11-01 12:46:54] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124654.json
+[2025-11-01 12:46:54] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124654.json
+[2025-11-01 12:46:54] [INFO] Live data parsing complete
+[2025-11-01 12:46:54] [INFO] Data ingestion complete —  delayed,  on-time
+[2025-11-01 12:49:26] [INFO] Starting data ingestion
+[2025-11-01 12:49:26] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:49:26] [INFO] Timetable processing complete
+[2025-11-01 12:49:26] [INFO] Fetching live delay data
+[2025-11-01 12:49:26] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124926.json
+[2025-11-01 12:49:26] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_124926.json
+[2025-11-01 12:49:26] [INFO] Live data parsing complete
+[2025-11-01 12:49:26] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-01 12:50:51] [INFO] Starting data ingestion
+[2025-11-01 12:50:51] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:50:51] [INFO] Timetable processing complete
+[2025-11-01 12:50:51] [INFO] Fetching live delay data
+[2025-11-01 12:50:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125051.json
+[2025-11-01 12:50:51] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125051.json
+[2025-11-01 12:50:51] [INFO] Live data parsing complete
+[2025-11-01 12:50:51] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-01 12:53:18] [INFO] Starting data ingestion
+[2025-11-01 12:53:18] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:53:18] [INFO] Timetable processing complete
+[2025-11-01 12:53:18] [INFO] Fetching live delay data
+[2025-11-01 12:53:18] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125318.json
+[2025-11-01 12:53:18] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125318.json
+[2025-11-01 12:53:18] [INFO] Live data parsing complete
+[2025-11-01 12:53:18] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-01 12:54:11] [INFO] Starting data ingestion
+[2025-11-01 12:54:11] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-01 12:54:11] [INFO] Timetable processing complete
+[2025-11-01 12:54:11] [INFO] Fetching live delay data
+[2025-11-01 12:54:11] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125411.json
+[2025-11-01 12:54:11] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251101_125411.json
+[2025-11-01 12:54:11] [INFO] Live data parsing complete
+[2025-11-01 12:54:11] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-02 04:37:50] [INFO] Starting data ingestion
+[2025-11-02 04:37:50] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 04:37:50] [INFO] Timetable processing complete
+[2025-11-02 04:37:50] [INFO] Fetching live delay data
+[2025-11-02 04:37:50] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_043750.json
+[2025-11-02 04:37:50] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_043750.json
+[2025-11-02 04:37:50] [INFO] Live data parsing complete
+[2025-11-02 04:37:50] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-02 04:38:40] [INFO] Starting data ingestion
+[2025-11-02 04:38:40] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 04:38:40] [INFO] Timetable processing complete
+[2025-11-02 04:38:40] [INFO] Fetching live delay data
+[2025-11-02 04:38:40] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_043840.json
+[2025-11-02 04:38:40] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_043840.json
+[2025-11-02 04:38:40] [INFO] Live data parsing complete
+[2025-11-02 04:38:40] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-02 04:53:34] [INFO] Starting data ingestion
+[2025-11-02 04:53:34] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 04:53:34] [INFO] Timetable processing complete
+[2025-11-02 04:53:34] [INFO] Fetching live delay data
+[2025-11-02 04:53:34] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_045334.json
+[2025-11-02 04:53:34] [INFO] Parsing live data from [2025-11-02 04:53:34] [INFO] Fetching live delay data
+[2025-11-02 04:53:34] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_045334.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_045334.json
+[2025-11-02 04:53:34] [INFO] Live data parsing complete
+[2025-11-02 04:53:34] [WARN] Parsed live data file not found! Skipping summary.
+[2025-11-02 05:05:51] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 05:05:51] [INFO] Step 1: Reading timetable
+[2025-11-02 05:05:51] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 05:05:51] [INFO] Timetable processing complete
+[2025-11-02 05:05:51] [INFO] Step 2: Fetching live delay data
+[2025-11-02 05:05:51] [INFO] Fetching live delay data from API
+[2025-11-02 05:05:51] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:05:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_050551.json
+[2025-11-02 05:05:51] [INFO] Step 3: Parsing live data
+[2025-11-02 05:05:51] [INFO] Parsing live data from [2025-11-02 05:05:51] [INFO] Fetching live delay data from API
+[2025-11-02 05:05:51] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:05:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_050551.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_050551.json
+[2025-11-02 05:05:51] [ERROR] File not found: [2025-11-02 05:05:51] [INFO] Fetching live delay data from API
+[2025-11-02 05:05:51] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:05:51] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_050551.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_050551.json
+[2025-11-02 05:05:51] [ERROR] JSON file is invalid or empty
+[2025-11-02 05:05:51] [WARN] jq parsing failed, trying awk method
+[2025-11-02 05:05:51] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:05:51] [INFO] Live data parsing complete (awk method)
+[2025-11-02 05:05:51] [INFO] Step 4: Validating parsed data
+[2025-11-02 05:05:51] [ERROR] File not found: [2025-11-02 05:05:51] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:05:51] [INFO] Live data parsing complete (awk method)
+/home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:05:51] [ERROR] Parsed data file is invalid
+[2025-11-02 05:05:51] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 05:05:51] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 05:05:51] [INFO] Cleanup complete
+[2025-11-02 05:05:51] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 05:05:51] [INFO] Parsed data available at: [2025-11-02 05:05:51] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:05:51] [INFO] Live data parsing complete (awk method)
+/home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:10:39] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 05:10:39] [INFO] Calculating delays
+[2025-11-02 05:10:39] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:10:39] [ERROR] Live data file not found
+[2025-11-02 05:10:39] [ERROR] File not found: [2025-11-02 05:10:39] [INFO] Calculating delays
+[2025-11-02 05:10:39] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:10:39] [ERROR] Live data file not found
+[2025-11-02 05:10:39] [INFO] Identifying heavily delayed routes (> minutes)
+[2025-11-02 05:10:39] [INFO] Found 0 heavily delayed vehicles
+[2025-11-02 05:10:39] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 05:10:39] [INFO] Delay file: [2025-11-02 05:10:39] [INFO] Calculating delays
+[2025-11-02 05:10:39] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:10:39] [ERROR] Live data file not found
+[2025-11-02 05:10:39] [INFO] Problem routes: [2025-11-02 05:10:39] [INFO] Identifying heavily delayed routes (> minutes)
+[2025-11-02 05:10:39] [INFO] Found 0 heavily delayed vehicles
+/home/siri15/transport-delay-tracker/data/processed/heavily_delayed_2025-11-02.txt
+[2025-11-02 05:11:25] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 05:11:25] [INFO] Step 1: Reading timetable
+[2025-11-02 05:11:25] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 05:11:25] [INFO] Timetable processing complete
+[2025-11-02 05:11:25] [INFO] Step 2: Fetching live delay data
+[2025-11-02 05:11:25] [INFO] Fetching live delay data from API
+[2025-11-02 05:11:25] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:11:25] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051125.json
+[2025-11-02 05:11:25] [INFO] Step 3: Parsing live data
+[2025-11-02 05:11:25] [INFO] Parsing live data from [2025-11-02 05:11:25] [INFO] Fetching live delay data from API
+[2025-11-02 05:11:25] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:11:25] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051125.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051125.json
+[2025-11-02 05:11:25] [ERROR] File not found: [2025-11-02 05:11:25] [INFO] Fetching live delay data from API
+[2025-11-02 05:11:25] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:11:25] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051125.json
+/home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051125.json
+[2025-11-02 05:11:25] [ERROR] JSON file is invalid or empty
+[2025-11-02 05:11:25] [WARN] jq parsing failed, trying awk method
+[2025-11-02 05:11:25] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:11:25] [INFO] Live data parsing complete (awk method)
+[2025-11-02 05:11:25] [INFO] Step 4: Validating parsed data
+[2025-11-02 05:11:25] [ERROR] File not found: [2025-11-02 05:11:25] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:11:25] [INFO] Live data parsing complete (awk method)
+/home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:11:25] [ERROR] Parsed data file is invalid
+[2025-11-02 05:11:25] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 05:11:25] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 05:11:25] [INFO] Cleanup complete
+[2025-11-02 05:11:25] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 05:11:25] [INFO] Parsed data available at: [2025-11-02 05:11:25] [WARN] Using awk parser (jq not available)
+[2025-11-02 05:11:25] [INFO] Live data parsing complete (awk method)
+/home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:11:34] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 05:11:34] [INFO] Calculating delays
+[2025-11-02 05:11:34] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:11:34] [ERROR] Live data file not found
+[2025-11-02 05:11:34] [ERROR] File not found: [2025-11-02 05:11:34] [INFO] Calculating delays
+[2025-11-02 05:11:34] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:11:34] [ERROR] Live data file not found
+[2025-11-02 05:11:34] [INFO] Identifying heavily delayed routes (> minutes)
+[2025-11-02 05:11:34] [INFO] Found 0 heavily delayed vehicles
+[2025-11-02 05:11:34] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 05:11:34] [INFO] Delay file: [2025-11-02 05:11:34] [INFO] Calculating delays
+[2025-11-02 05:11:34] [WARN] File is empty: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:11:34] [ERROR] Live data file not found
+[2025-11-02 05:11:34] [INFO] Problem routes: [2025-11-02 05:11:34] [INFO] Identifying heavily delayed routes (> minutes)
+[2025-11-02 05:11:34] [INFO] Found 0 heavily delayed vehicles
+/home/siri15/transport-delay-tracker/data/processed/heavily_delayed_2025-11-02.txt
+[2025-11-02 05:15:17] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 05:15:17] [INFO] Step 1: Reading timetable
+[2025-11-02 05:15:17] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 05:15:17] [INFO] Timetable processing complete
+[2025-11-02 05:15:17] [INFO] Step 2: Fetching live delay data
+[2025-11-02 05:15:17] [INFO] Fetching live delay data from API
+[2025-11-02 05:15:17] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:15:17] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051517.json
+[2025-11-02 05:15:17] [INFO] Step 3: Parsing live data
+[2025-11-02 05:15:17] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_051517.json
+[2025-11-02 05:15:17] [INFO] Parsed 15 records from live data
+[2025-11-02 05:15:17] [INFO] Step 4: Validating parsed data
+[2025-11-02 05:15:17] [INFO] All parsed data records are valid
+[2025-11-02 05:15:17] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 05:15:17] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 05:15:17] [INFO] Cleanup complete
+[2025-11-02 05:15:17] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 05:15:17] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:17:27] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 05:17:27] [INFO] Calculating delays
+[2025-11-02 05:17:27] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 05:17:27] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 05:17:27] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 05:17:27] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 05:17:27] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 05:17:27] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 05:18:49] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 05:18:49] [INFO] Generating CSV report
+[2025-11-02 05:18:49] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 05:18:49] [INFO] Generating HTML report
+[2025-11-02 05:18:49] [INFO] HTML report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 05:18:49] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 05:19:19] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 05:19:19] [INFO] Alert Summary:
+[2025-11-02 05:19:19] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 05:19:19] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 05:19:19] [INFO] Checking for critical delays
+[2025-11-02 05:19:19] [ALERT] Found 0
+0 critical and 2 major delays
+[2025-11-02 05:19:19] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 05:19:19] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 05:19:19] [INFO] Alert would contain:
+[2025-11-02 05:19:19] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 05:19:19] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 05:21:25] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 05:21:25] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 05:21:25] [INFO] Step 1: Reading timetable
+[2025-11-02 05:21:25] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 05:21:25] [INFO] Timetable processing complete
+[2025-11-02 05:21:25] [INFO] Step 2: Fetching live delay data
+[2025-11-02 05:21:25] [INFO] Fetching live delay data from API
+[2025-11-02 05:21:25] [WARN] Using simulated data (no real API configured)
+[2025-11-02 05:21:25] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_052125.json
+[2025-11-02 05:21:25] [INFO] Step 3: Parsing live data
+[2025-11-02 05:21:25] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_052125.json
+[2025-11-02 05:21:25] [INFO] Parsed 15 records from live data
+[2025-11-02 05:21:25] [INFO] Step 4: Validating parsed data
+[2025-11-02 05:21:25] [INFO] All parsed data records are valid
+[2025-11-02 05:21:25] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 05:21:25] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 05:21:25] [INFO] Cleanup complete
+[2025-11-02 05:21:25] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 05:21:25] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 05:21:25] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 05:21:25] [INFO] Calculating delays
+[2025-11-02 05:21:25] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 05:21:25] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 05:21:25] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 05:21:25] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 05:21:25] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 05:21:25] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 05:21:25] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 05:21:25] [INFO] Generating CSV report
+[2025-11-02 05:21:25] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 05:21:25] [INFO] Generating HTML report
+[2025-11-02 05:21:25] [INFO] HTML report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 05:21:25] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 05:21:25] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 05:21:25] [INFO] Alert Summary:
+[2025-11-02 05:21:25] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 05:21:25] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 05:21:25] [INFO] Checking for critical delays
+[2025-11-02 05:21:25] [ALERT] Found 0
+0 critical and 2 major delays
+[2025-11-02 05:21:25] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 05:21:25] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 05:21:25] [INFO] Alert would contain:
+[2025-11-02 05:21:25] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 05:21:25] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 05:21:25] [INFO] Rotating logs older than 30 days
+[2025-11-02 05:21:25] [INFO] Pipeline execution complete!
+[2025-11-02 10:00:14] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 10:00:14] [INFO] Alert Summary:
+[2025-11-02 10:00:14] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 10:00:14] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 10:00:14] [INFO] Checking for critical delays
+[2025-11-02 10:00:14] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 10:00:14] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 10:00:14] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 10:00:14] [INFO] Alert would contain:
+[2025-11-02 10:00:14] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 10:00:14] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 11:51:40] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 11:51:40] [INFO] Generating CSV report
+[2025-11-02 11:51:40] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 11:51:40] [INFO] Generating HTML report with charts
+[2025-11-02 11:51:41] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 11:51:41] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 11:51:56] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 11:51:56] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 11:51:56] [INFO] Step 1: Reading timetable
+[2025-11-02 11:51:56] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 11:51:56] [INFO] Timetable processing complete
+[2025-11-02 11:51:56] [INFO] Step 2: Fetching live delay data
+[2025-11-02 11:51:56] [INFO] Fetching live delay data from API
+[2025-11-02 11:51:56] [WARN] Using simulated data (no real API configured)
+[2025-11-02 11:51:56] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_115156.json
+[2025-11-02 11:51:56] [INFO] Step 3: Parsing live data
+[2025-11-02 11:51:56] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_115156.json
+[2025-11-02 11:51:56] [INFO] Parsed 15 records from live data
+[2025-11-02 11:51:56] [INFO] Step 4: Validating parsed data
+[2025-11-02 11:51:56] [INFO] All parsed data records are valid
+[2025-11-02 11:51:56] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 11:51:56] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 11:51:56] [INFO] Cleanup complete
+[2025-11-02 11:51:56] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 11:51:56] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 11:51:56] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 11:51:56] [INFO] Calculating delays
+[2025-11-02 11:51:56] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 11:51:56] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 11:51:56] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 11:51:56] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 11:51:56] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 11:51:56] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 11:51:56] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 11:51:56] [INFO] Generating CSV report
+[2025-11-02 11:51:56] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 11:51:56] [INFO] Generating HTML report with charts
+[2025-11-02 11:51:56] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 11:51:56] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 11:51:56] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 11:51:56] [INFO] Alert Summary:
+[2025-11-02 11:51:56] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 11:51:56] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 11:51:56] [INFO] Checking for critical delays
+[2025-11-02 11:51:56] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 11:51:56] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 11:51:56] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 11:51:56] [INFO] Alert would contain:
+[2025-11-02 11:51:56] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 11:51:57] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 11:51:57] [INFO] Rotating logs older than 30 days
+[2025-11-02 11:51:57] [INFO] Pipeline execution complete!
+[2025-11-02 14:12:11] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 14:12:11] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 14:12:11] [INFO] Step 1: Reading timetable
+[2025-11-02 14:12:11] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 14:12:11] [INFO] Timetable processing complete
+[2025-11-02 14:12:11] [INFO] Step 2: Fetching live delay data
+[2025-11-02 14:12:11] [INFO] Fetching live delay data from API
+[2025-11-02 14:12:11] [WARN] Using simulated data (no real API configured)
+[2025-11-02 14:12:11] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_141211.json
+[2025-11-02 14:12:11] [INFO] Step 3: Parsing live data
+[2025-11-02 14:12:11] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_141211.json
+[2025-11-02 14:12:11] [INFO] Parsed 15 records from live data
+[2025-11-02 14:12:11] [INFO] Step 4: Validating parsed data
+[2025-11-02 14:12:11] [INFO] All parsed data records are valid
+[2025-11-02 14:12:11] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 14:12:11] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 14:12:11] [INFO] Cleanup complete
+[2025-11-02 14:12:11] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 14:12:11] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 14:12:11] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 14:12:11] [INFO] Calculating delays
+[2025-11-02 14:12:11] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 14:12:11] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 14:12:12] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 14:12:12] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 14:12:12] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 14:12:12] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 14:12:12] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:12:12] [INFO] Generating CSV report
+[2025-11-02 14:12:12] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 14:12:12] [INFO] Generating HTML report with charts
+[2025-11-02 14:12:12] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 14:12:12] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 14:12:12] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 14:12:12] [INFO] Alert Summary:
+[2025-11-02 14:12:12] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 14:12:12] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 14:12:12] [INFO] Checking for critical delays
+[2025-11-02 14:12:12] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 14:12:12] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 14:12:12] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 14:12:12] [INFO] Alert would contain:
+[2025-11-02 14:12:12] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 14:12:12] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 14:12:12] [INFO] Rotating logs older than 30 days
+[2025-11-02 14:12:12] [INFO] Pipeline execution complete!
+[2025-11-02 14:14:12] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 14:14:12] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 14:14:12] [INFO] Step 1: Reading timetable
+[2025-11-02 14:14:12] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 14:14:12] [INFO] Timetable processing complete
+[2025-11-02 14:14:12] [INFO] Step 2: Fetching live delay data
+[2025-11-02 14:14:12] [INFO] Fetching live delay data from API
+[2025-11-02 14:14:12] [WARN] Using simulated data (no real API configured)
+[2025-11-02 14:14:12] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_141412.json
+[2025-11-02 14:14:12] [INFO] Step 3: Parsing live data
+[2025-11-02 14:14:12] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_141412.json
+[2025-11-02 14:14:12] [INFO] Parsed 15 records from live data
+[2025-11-02 14:14:12] [INFO] Step 4: Validating parsed data
+[2025-11-02 14:14:12] [INFO] All parsed data records are valid
+[2025-11-02 14:14:12] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 14:14:12] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 14:14:12] [INFO] Cleanup complete
+[2025-11-02 14:14:12] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 14:14:12] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 14:14:12] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 14:14:12] [INFO] Calculating delays
+[2025-11-02 14:14:12] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 14:14:12] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 14:14:12] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 14:14:12] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 14:14:12] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 14:14:12] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 14:14:12] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:14:12] [INFO] Generating CSV report
+[2025-11-02 14:14:12] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 14:14:12] [INFO] Generating HTML report with charts
+[2025-11-02 14:14:12] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 14:14:12] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 14:14:12] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 14:14:12] [INFO] Alert Summary:
+[2025-11-02 14:14:12] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 14:14:12] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 14:14:12] [INFO] Checking for critical delays
+[2025-11-02 14:14:12] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 14:14:12] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 14:14:12] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 14:14:12] [INFO] Alert would contain:
+[2025-11-02 14:14:12] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 14:14:12] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 14:14:12] [INFO] Rotating logs older than 30 days
+[2025-11-02 14:14:12] [INFO] Pipeline execution complete!
+[2025-11-02 14:20:14] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 14:20:14] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 14:20:14] [INFO] Step 1: Reading timetable
+[2025-11-02 14:20:14] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 14:20:14] [INFO] Timetable processing complete
+[2025-11-02 14:20:14] [INFO] Step 2: Fetching live delay data
+[2025-11-02 14:20:14] [INFO] Fetching live delay data from API
+[2025-11-02 14:20:14] [WARN] Using simulated data (no real API configured)
+[2025-11-02 14:20:14] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_142014.json
+[2025-11-02 14:20:14] [INFO] Step 3: Parsing live data
+[2025-11-02 14:20:14] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_142014.json
+[2025-11-02 14:20:14] [INFO] Parsed 15 records from live data
+[2025-11-02 14:20:14] [INFO] Step 4: Validating parsed data
+[2025-11-02 14:20:14] [INFO] All parsed data records are valid
+[2025-11-02 14:20:14] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 14:20:14] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 14:20:14] [INFO] Cleanup complete
+[2025-11-02 14:20:14] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 14:20:14] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 14:20:14] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 14:20:14] [INFO] Calculating delays
+[2025-11-02 14:20:14] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 14:20:14] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 14:20:14] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 14:20:14] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 14:20:14] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 14:20:14] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 14:20:14] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:20:14] [INFO] Generating CSV report
+[2025-11-02 14:20:14] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 14:20:14] [INFO] Generating HTML report with charts
+[2025-11-02 14:20:15] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 14:20:15] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 14:20:15] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 14:20:15] [INFO] Alert Summary:
+[2025-11-02 14:20:15] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 14:20:15] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 14:20:15] [INFO] Checking for critical delays
+[2025-11-02 14:20:15] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 14:20:15] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 14:20:15] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 14:20:15] [INFO] Alert would contain:
+[2025-11-02 14:20:15] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 14:20:15] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 14:20:15] [INFO] Rotating logs older than 30 days
+[2025-11-02 14:20:15] [INFO] Pipeline execution complete!
+[2025-11-02 14:24:26] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-02 14:24:26] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-02 14:24:26] [INFO] Step 1: Reading timetable
+[2025-11-02 14:24:26] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-02 14:24:26] [INFO] Timetable processing complete
+[2025-11-02 14:24:26] [INFO] Step 2: Fetching live delay data
+[2025-11-02 14:24:26] [INFO] Fetching live delay data from API
+[2025-11-02 14:24:26] [WARN] Using simulated data (no real API configured)
+[2025-11-02 14:24:26] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_142426.json
+[2025-11-02 14:24:26] [INFO] Step 3: Parsing live data
+[2025-11-02 14:24:26] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251102_142426.json
+[2025-11-02 14:24:26] [INFO] Parsed 15 records from live data
+[2025-11-02 14:24:26] [INFO] Step 4: Validating parsed data
+[2025-11-02 14:24:26] [INFO] All parsed data records are valid
+[2025-11-02 14:24:26] [INFO] Step 5: Cleaning up old data files
+[2025-11-02 14:24:26] [INFO] Cleaning up data files older than 7 days
+[2025-11-02 14:24:26] [INFO] Cleanup complete
+[2025-11-02 14:24:26] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-02 14:24:26] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-02 14:24:26] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-02 14:24:26] [INFO] Calculating delays
+[2025-11-02 14:24:26] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-02 14:24:26] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-02.csv
+[2025-11-02 14:24:26] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-02 14:24:26] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-02 14:24:26] [INFO] Found 2 heavily delayed vehicles
+[2025-11-02 14:24:26] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-02 14:24:26] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:24:26] [INFO] Generating CSV report
+[2025-11-02 14:24:26] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.csv
+[2025-11-02 14:24:26] [INFO] Generating HTML report with charts
+[2025-11-02 14:24:26] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-02.html
+[2025-11-02 14:24:26] [INFO] Generating PDF report...
+[2025-11-02 14:24:26] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:24:27] [ERROR] CSV report generation failed
+[2025-11-02 14:24:27] [WARN] PDF generation failed, but CSV and HTML are available
+[2025-11-02 14:24:27] [INFO] ========== Report Generation Complete ==========
+[2025-11-02 14:24:27] [INFO] ========== Starting Alert Check ==========
+[2025-11-02 14:24:27] [INFO] Alert Summary:
+[2025-11-02 14:24:27] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-02 14:24:27] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-02 14:24:27] [INFO] Checking for critical delays
+[2025-11-02 14:24:27] [ALERT] Found 00 critical and 2 major delays
+[2025-11-02 14:24:27] [INFO] Preparing email alert for your-email@example.com
+[2025-11-02 14:24:27] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-02 14:24:27] [INFO] Alert would contain:
+[2025-11-02 14:24:27] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-02
+[2025-11-02 14:24:27] [INFO] ========== Alert Check Complete ==========
+[2025-11-02 14:24:27] [INFO] Rotating logs older than 30 days
+[2025-11-02 14:24:27] [INFO] Pipeline execution complete!
+[2025-11-02 14:25:11] [INFO] ========== Starting Report Generation ==========
+[2025-11-02 14:25:11] [ERROR] CSV report generation failed
+[2025-11-05 08:04:20] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-05 08:04:20] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-05 08:04:20] [INFO] Step 1: Reading timetable
+[2025-11-05 08:04:20] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-05 08:04:20] [INFO] Timetable processing complete
+[2025-11-05 08:04:20] [INFO] Step 2: Fetching live delay data
+[2025-11-05 08:04:20] [INFO] Fetching live delay data from API
+[2025-11-05 08:04:20] [WARN] Using simulated data (no real API configured)
+[2025-11-05 08:04:20] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251105_080420.json
+[2025-11-05 08:04:20] [INFO] Step 3: Parsing live data
+[2025-11-05 08:04:20] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251105_080420.json
+[2025-11-05 08:04:20] [INFO] Parsed 15 records from live data
+[2025-11-05 08:04:20] [INFO] Step 4: Validating parsed data
+[2025-11-05 08:04:20] [INFO] All parsed data records are valid
+[2025-11-05 08:04:20] [INFO] Step 5: Cleaning up old data files
+[2025-11-05 08:04:20] [INFO] Cleaning up data files older than 7 days
+[2025-11-05 08:04:20] [INFO] Cleanup complete
+[2025-11-05 08:04:20] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-05 08:04:20] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-05 08:04:20] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-05 08:04:20] [INFO] Calculating delays
+[2025-11-05 08:04:20] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-05 08:04:20] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-05.csv
+[2025-11-05 08:04:20] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-05 08:04:20] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-05 08:04:20] [INFO] Found 2 heavily delayed vehicles
+[2025-11-05 08:04:20] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-05 08:04:20] [INFO] ========== Starting Report Generation ==========
+[2025-11-05 08:04:20] [INFO] Generating CSV report
+[2025-11-05 08:04:20] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-05.csv
+[2025-11-05 08:04:20] [INFO] Generating HTML report with charts
+[2025-11-05 08:04:21] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-05.html
+[2025-11-05 08:04:21] [INFO] Generating PDF report...
+[2025-11-05 08:04:21] [INFO] ========== Starting Report Generation ==========
+[2025-11-05 08:04:21] [ERROR] CSV report generation failed
+[2025-11-05 08:04:21] [WARN] PDF generation failed, but CSV and HTML are available
+[2025-11-05 08:04:21] [INFO] ========== Report Generation Complete ==========
+[2025-11-05 08:04:21] [INFO] ========== Starting Alert Check ==========
+[2025-11-05 08:04:21] [INFO] Alert Summary:
+[2025-11-05 08:04:21] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-05 08:04:21] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-05 08:04:21] [INFO] Checking for critical delays
+[2025-11-05 08:04:21] [ALERT] Found 00 critical and 2 major delays
+[2025-11-05 08:04:21] [INFO] Preparing email alert for your-email@example.com
+[2025-11-05 08:04:21] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-05 08:04:21] [INFO] Alert would contain:
+[2025-11-05 08:04:21] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-05
+[2025-11-05 08:04:21] [INFO] ========== Alert Check Complete ==========
+[2025-11-05 08:04:21] [INFO] Rotating logs older than 30 days
+[2025-11-05 08:04:21] [INFO] Pipeline execution complete!
+[2025-11-05 08:13:40] [INFO] Starting Transport Delay Tracker Pipeline
+[2025-11-05 08:13:40] [INFO] ========== Starting Data Ingestion ==========
+[2025-11-05 08:13:40] [INFO] Step 1: Reading timetable
+[2025-11-05 08:13:40] [INFO] Reading timetable from /home/siri15/transport-delay-tracker/data/timetables/schedule.csv
+[2025-11-05 08:13:40] [INFO] Timetable processing complete
+[2025-11-05 08:13:40] [INFO] Step 2: Fetching live delay data
+[2025-11-05 08:13:40] [INFO] Fetching live delay data from API
+[2025-11-05 08:13:40] [WARN] Using simulated data (no real API configured)
+[2025-11-05 08:13:40] [INFO] Live data saved to /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251105_081340.json
+[2025-11-05 08:13:40] [INFO] Step 3: Parsing live data
+[2025-11-05 08:13:40] [INFO] Parsing live data from /home/siri15/transport-delay-tracker/data/live_feeds/live_data_20251105_081340.json
+[2025-11-05 08:13:40] [INFO] Parsed 15 records from live data
+[2025-11-05 08:13:40] [INFO] Step 4: Validating parsed data
+[2025-11-05 08:13:40] [INFO] All parsed data records are valid
+[2025-11-05 08:13:40] [INFO] Step 5: Cleaning up old data files
+[2025-11-05 08:13:40] [INFO] Cleaning up data files older than 7 days
+[2025-11-05 08:13:40] [INFO] Cleanup complete
+[2025-11-05 08:13:40] [INFO] ========== Data Ingestion Complete ==========
+[2025-11-05 08:13:40] [INFO] Parsed data available at: /home/siri15/transport-delay-tracker/data/processed/live_data_parsed.txt
+[2025-11-05 08:13:40] [INFO] ========== Starting Delay Calculation ==========
+[2025-11-05 08:13:40] [INFO] Calculating delays
+[2025-11-05 08:13:40] [INFO] Delay calculation complete. Processed 15 records
+[2025-11-05 08:13:40] [INFO] Results saved to: /home/siri15/transport-delay-tracker/data/processed/delays_calculated_2025-11-05.csv
+[2025-11-05 08:13:40] [INFO] Statistics calculated: 86.67% on-time, avg delay 3.40 min
+[2025-11-05 08:13:40] [INFO] Identifying heavily delayed routes (>15 minutes)
+[2025-11-05 08:13:40] [INFO] Found 2 heavily delayed vehicles
+[2025-11-05 08:13:40] [INFO] ========== Delay Calculation Complete ==========
+[2025-11-05 08:13:40] [INFO] ========== Starting Report Generation ==========
+[2025-11-05 08:13:40] [INFO] Generating CSV report
+[2025-11-05 08:13:40] [INFO] CSV report generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-05.csv
+[2025-11-05 08:13:40] [INFO] Generating HTML report with charts
+[2025-11-05 08:13:40] [INFO] HTML report with charts generated: /home/siri15/transport-delay-tracker/reports/daily/report_2025-11-05.html
+[2025-11-05 08:13:40] [INFO] Generating PDF report...
+[2025-11-05 08:13:40] [INFO] ========== Starting Report Generation ==========
+[2025-11-05 08:13:40] [ERROR] CSV report generation failed
+[2025-11-05 08:13:40] [WARN] PDF generation failed, but CSV and HTML are available
+[2025-11-05 08:13:40] [INFO] ========== Report Generation Complete ==========
+[2025-11-05 08:13:40] [INFO] ========== Starting Alert Check ==========
+[2025-11-05 08:13:40] [INFO] Alert Summary:
+[2025-11-05 08:13:40] [ALERT] [MAJOR] Route_101 - BUS_002 at Market Square: 17 min delay
+[2025-11-05 08:13:40] [ALERT] [MAJOR] Route_101 - BUS_002 at University: 19 min delay
+[2025-11-05 08:13:40] [INFO] Checking for critical delays
+[2025-11-05 08:13:40] [ALERT] Found 00 critical and 2 major delays
+[2025-11-05 08:13:40] [INFO] Preparing email alert for your-email@example.com
+[2025-11-05 08:13:40] [WARN] mailx not installed. Email not sent. Install with: sudo apt-get install mailutils
+[2025-11-05 08:13:40] [INFO] Alert would contain:
+[2025-11-05 08:13:40] [INFO] Subject: 🚨 Transport Delay Alert - 2025-11-05
+[2025-11-05 08:13:40] [INFO] ========== Alert Check Complete ==========
+[2025-11-05 08:13:40] [INFO] Rotating logs older than 30 days
+[2025-11-05 08:13:40] [INFO] Pipeline execution complete!

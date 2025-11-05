@@ -1,0 +1,15 @@
+Route_101|BUS_001|Central Station|08:00:00|08:00:00|on-time
+Route_101|BUS_001|Market Square|08:15:00|08:17:00|delayed
+Route_101|BUS_001|University|08:30:00|08:34:00|delayed
+Route_101|BUS_002|Central Station|08:30:00|08:31:00|delayed
+Route_101|BUS_002|Market Square|08:45:00|09:02:00|delayed
+Route_101|BUS_002|University|09:00:00|09:19:00|delayed
+Route_202|TRAIN_001|Downtown|09:00:00|09:00:00|on-time
+Route_202|TRAIN_001|Suburbs|09:25:00|09:28:00|delayed
+Route_202|TRAIN_001|Airport|09:45:00|09:50:00|delayed
+Route_202|TRAIN_002|Downtown|10:00:00|09:58:00|on-time
+Route_202|TRAIN_002|Suburbs|10:25:00|10:24:00|on-time
+Route_202|TRAIN_002|Airport|10:45:00|10:45:00|on-time
+Route_303|BUS_003|City Center|07:30:00|07:30:00|on-time
+Route_303|BUS_003|Business Park|07:50:00|07:51:00|on-time
+Route_303|BUS_003|Industrial Zone|08:10:00|08:12:00|delayed

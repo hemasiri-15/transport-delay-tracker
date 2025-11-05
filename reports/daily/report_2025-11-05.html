@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Transport Delay Report - 2025-11-05</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        header {
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .meta-info {
+            color: #666;
+            font-size: 0.95em;
+        }
+        .meta-info span {
+            margin-right: 20px;
+        }
+        h2 {
+            color: #667eea;
+            margin: 30px 0 20px 0;
+            font-size: 1.8em;
+            border-left: 5px solid #667eea;
+            padding-left: 15px;
+        }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .metric {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .metric:hover {
+            transform: translateY(-5px);
+        }
+        .metric.success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            box-shadow: 0 5px 15px rgba(56, 239, 125, 0.3);
+        }
+        .metric.warning {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+        }
+        .metric.info {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3);
+        }
+        .metric-value {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 15px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .metric-label {
+            font-size: 1em;
+            opacity: 0.95;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .chart-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        canvas {
+            max-height: 400px;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+        }
+        tr {
+            transition: background-color 0.2s ease;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .status-critical {
+            color: #dc3545;
+            font-weight: bold;
+            background: #ffe6e6;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .status-major {
+            color: #fd7e14;
+            font-weight: bold;
+            background: #fff3cd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .status-minor {
+            color: #ffc107;
+            font-weight: bold;
+            background: #fff8e1;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .status-ontime {
+            color: #28a745;
+            font-weight: bold;
+            background: #d4edda;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .status-early {
+            color: #17a2b8;
+            font-weight: bold;
+            background: #d1ecf1;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .delay-positive {
+            color: #dc3545;
+            font-weight: 600;
+        }
+        .delay-negative {
+            color: #28a745;
+            font-weight: 600;
+        }
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .metric:hover {
+                transform: none;
+            }
+        }
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚍 Public Transport Delay Report</h1>
+            <div class="meta-info">
+                <span><strong>📅 Report Date:</strong> 2025-11-05</span>
+                <span><strong>🕐 Generated:</strong> 08:13:40</span>
+            </div>
+        </header>
+        
+        <h2>📊 Summary Statistics</h2>
+        <div class="summary">
+            <div class="metric info">
+                <div class="metric-label">Total Vehicles</div>
+                <div class="metric-value">15</div>
+            </div>
+            <div class="metric success">
+                <div class="metric-label">On-Time</div>
+                <div class="metric-value">86.67%</div>
+            </div>
+            <div class="metric warning">
+                <div class="metric-label">Avg Delay</div>
+                <div class="metric-value">3.40<span style="font-size:0.4em">min</span></div>
+            </div>
+            <div class="metric warning">
+                <div class="metric-label">Max Delay</div>
+                <div class="metric-value">19<span style="font-size:0.4em">min</span></div>
+            </div>
+        </div>
+        
+        <h2>📈 Visual Analytics</h2>
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-title">Average Delay by Route</div>
+                <canvas id="delayChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">On-Time Performance by Route</div>
+                <canvas id="ontimeChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-title">Delay Severity Distribution</div>
+                <canvas id="severityChart"></canvas>
+            </div>
+        </div>
+        
+        <h2>📋 Detailed Delay Report</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Route</th>
+                        <th>Vehicle</th>
+                        <th>Stop</th>
+                        <th>Scheduled</th>
+                        <th>Actual</th>
+                        <th>Delay (min)</th>
+                        <th>Severity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_001</td>
+                        <td>Central Station</td>
+                        <td>08:00:00</td>
+                        <td>08:00:00</td>
+                        <td class="delay-positive">0</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_001</td>
+                        <td>Market Square</td>
+                        <td>08:15:00</td>
+                        <td>08:17:00</td>
+                        <td class="delay-positive">2</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_001</td>
+                        <td>University</td>
+                        <td>08:30:00</td>
+                        <td>08:34:00</td>
+                        <td class="delay-positive">4</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_002</td>
+                        <td>Central Station</td>
+                        <td>08:30:00</td>
+                        <td>08:31:00</td>
+                        <td class="delay-positive">1</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_002</td>
+                        <td>Market Square</td>
+                        <td>08:45:00</td>
+                        <td>09:02:00</td>
+                        <td class="delay-positive">17</td>
+                        <td><span class="status-major">MAJOR</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_101</strong></td>
+                        <td>BUS_002</td>
+                        <td>University</td>
+                        <td>09:00:00</td>
+                        <td>09:19:00</td>
+                        <td class="delay-positive">19</td>
+                        <td><span class="status-major">MAJOR</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_001</td>
+                        <td>Downtown</td>
+                        <td>09:00:00</td>
+                        <td>09:00:00</td>
+                        <td class="delay-positive">0</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_001</td>
+                        <td>Suburbs</td>
+                        <td>09:25:00</td>
+                        <td>09:28:00</td>
+                        <td class="delay-positive">3</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_001</td>
+                        <td>Airport</td>
+                        <td>09:45:00</td>
+                        <td>09:50:00</td>
+                        <td class="delay-positive">5</td>
+                        <td><span class="status-minor">MINOR</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_002</td>
+                        <td>Downtown</td>
+                        <td>10:00:00</td>
+                        <td>09:58:00</td>
+                        <td class="delay-negative">-2</td>
+                        <td><span class="status-early">EARLY</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_002</td>
+                        <td>Suburbs</td>
+                        <td>10:25:00</td>
+                        <td>10:24:00</td>
+                        <td class="delay-negative">-1</td>
+                        <td><span class="status-early">EARLY</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_202</strong></td>
+                        <td>TRAIN_002</td>
+                        <td>Airport</td>
+                        <td>10:45:00</td>
+                        <td>10:45:00</td>
+                        <td class="delay-positive">0</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_303</strong></td>
+                        <td>BUS_003</td>
+                        <td>City Center</td>
+                        <td>07:30:00</td>
+                        <td>07:30:00</td>
+                        <td class="delay-positive">0</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_303</strong></td>
+                        <td>BUS_003</td>
+                        <td>Business Park</td>
+                        <td>07:50:00</td>
+                        <td>07:51:00</td>
+                        <td class="delay-positive">1</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Route_303</strong></td>
+                        <td>BUS_003</td>
+                        <td>Industrial Zone</td>
+                        <td>08:10:00</td>
+                        <td>08:12:00</td>
+                        <td class="delay-positive">2</td>
+                        <td><span class="status-ontime">ON_TIME</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Public Transport Delay Tracker</strong></p>
+            <p>Generated automatically by the monitoring system</p>
+        </div>
+    </div>
+    
+    <script>
+        // Chart colors
+        const colors = {
+            primary: 'rgba(102, 126, 234, 0.8)',
+            success: 'rgba(56, 239, 125, 0.8)',
+            warning: 'rgba(245, 87, 108, 0.8)',
+            info: 'rgba(79, 172, 254, 0.8)',
+            secondary: 'rgba(118, 75, 162, 0.8)'
+        };
+        
+        // Route data
+        const routes = 'Route_101,Route_202,Route_303'.split(',');
+        const avgDelays = '1.00,7.17,0.83'.split(',').map(Number);
+        const ontimePercentages = '100.00,66.67,100.00'.split(',').map(Number);
+        
+        // Chart 1: Average Delay by Route (Bar Chart)
+        const ctx1 = document.getElementById('delayChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: routes,
+                datasets: [{
+                    label: 'Average Delay (minutes)',
+                    data: avgDelays,
+                    backgroundColor: colors.warning,
+                    borderColor: 'rgba(245, 87, 108, 1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.parsed.y.toFixed(2) + ' minutes';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Minutes'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Chart 2: On-Time Performance by Route (Bar Chart)
+        const ctx2 = document.getElementById('ontimeChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: routes,
+                datasets: [{
+                    label: 'On-Time Performance (%)',
+                    data: ontimePercentages,
+                    backgroundColor: colors.success,
+                    borderColor: 'rgba(56, 239, 125, 1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.parsed.y.toFixed(2) + '%';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Percentage'
+                        }
+                    }
+                }
+            }
+        });
+        
+        // Chart 3: Severity Distribution (Doughnut Chart)
+        const ctx3 = document.getElementById('severityChart').getContext('2d');
+        new Chart(ctx3, {
+            type: 'doughnut',
+            data: {
+                labels: ['On-Time', 'Minor Delay', 'Major Delay', 'Critical Delay'],
+                datasets: [{
+                    data: [, , , 0],
+                    backgroundColor: [
+                        'rgba(56, 239, 125, 0.8)',
+                        'rgba(255, 193, 7, 0.8)',
+                        'rgba(255, 152, 0, 0.8)',
+                        'rgba(220, 53, 69, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgba(56, 239, 125, 1)',
+                        'rgba(255, 193, 7, 1)',
+                        'rgba(255, 152, 0, 1)',
+                        'rgba(220, 53, 69, 1)'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label || '';
+                                const value = context.parsed || 0;
+                                const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                const percentage = ((value / total) * 100).toFixed(1);
+                                return label + ': ' + value + ' (' + percentage + '%)';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

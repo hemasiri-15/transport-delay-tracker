@@ -1,0 +1,5 @@
+Total Vehicles: 15
+On-Time Vehicles: 13
+On-Time Percentage: 86.67%
+Average Delay: 3.40 minutes
+Maximum Delay: 19 minutes

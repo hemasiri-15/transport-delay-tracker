@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-11-02T08:17:00Z",
+  "status": "success",
+  "delays": [
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_001",
+      "stop_name": "Central Station",
+      "scheduled_time": "08:00:00",
+      "actual_time": "08:00:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_001",
+      "stop_name": "Market Square",
+      "scheduled_time": "08:15:00",
+      "actual_time": "08:17:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_001",
+      "stop_name": "University",
+      "scheduled_time": "08:30:00",
+      "actual_time": "08:34:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_002",
+      "stop_name": "Central Station",
+      "scheduled_time": "08:30:00",
+      "actual_time": "08:31:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_002",
+      "stop_name": "Market Square",
+      "scheduled_time": "08:45:00",
+      "actual_time": "09:02:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_101",
+      "vehicle_id": "BUS_002",
+      "stop_name": "University",
+      "scheduled_time": "09:00:00",
+      "actual_time": "09:19:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_001",
+      "stop_name": "Downtown",
+      "scheduled_time": "09:00:00",
+      "actual_time": "09:00:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_001",
+      "stop_name": "Suburbs",
+      "scheduled_time": "09:25:00",
+      "actual_time": "09:28:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_001",
+      "stop_name": "Airport",
+      "scheduled_time": "09:45:00",
+      "actual_time": "09:50:00",
+      "status": "delayed"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_002",
+      "stop_name": "Downtown",
+      "scheduled_time": "10:00:00",
+      "actual_time": "09:58:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_002",
+      "stop_name": "Suburbs",
+      "scheduled_time": "10:25:00",
+      "actual_time": "10:24:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_202",
+      "vehicle_id": "TRAIN_002",
+      "stop_name": "Airport",
+      "scheduled_time": "10:45:00",
+      "actual_time": "10:45:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_303",
+      "vehicle_id": "BUS_003",
+      "stop_name": "City Center",
+      "scheduled_time": "07:30:00",
+      "actual_time": "07:30:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_303",
+      "vehicle_id": "BUS_003",
+      "stop_name": "Business Park",
+      "scheduled_time": "07:50:00",
+      "actual_time": "07:51:00",
+      "status": "on-time"
+    },
+    {
+      "route_id": "Route_303",
+      "vehicle_id": "BUS_003",
+      "stop_name": "Industrial Zone",
+      "scheduled_time": "08:10:00",
+      "actual_time": "08:12:00",
+      "status": "delayed"
+    }
+  ]
+}
